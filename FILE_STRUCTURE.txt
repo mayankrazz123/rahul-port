@@ -1,0 +1,184 @@
+3D ARTIST PORTFOLIO - FILE STRUCTURE
+=====================================
+
+📁 3d-artist-portfolio/
+│
+├── 📄 index.html                          # Main HTML file - The entire website
+│
+├── 📁 css/
+│   └── 📄 style.css                       # All styles and responsive design
+│
+├── 📁 js/
+│   └── 📄 main.js                         # All JavaScript functionality
+│
+├── 📁 assets/
+│   │
+│   ├── 📁 images/
+│   │   ├── 📄 profile.jpg                 # Your profile photo (800x800px)
+│   │   ├── 📄 placeholder.txt             # Image specifications guide
+│   │   │
+│   │   ├── 📁 projects/
+│   │   │   ├── 📄 project1.jpg            # Project 1 thumbnail
+│   │   │   ├── 📄 project1-1.jpg          # Project 1 detail image 1
+│   │   │   ├── 📄 project1-2.jpg          # Project 1 detail image 2
+│   │   │   ├── 📄 project1-3.jpg          # Project 1 detail image 3
+│   │   │   ├── 📄 project1-4.jpg          # Project 1 detail image 4
+│   │   │   ├── 📄 project2.jpg            # Project 2 thumbnail
+│   │   │   ├── 📄 project2-1.jpg          # Project 2 detail images...
+│   │   │   ├── 📄 project2-2.jpg
+│   │   │   ├── 📄 project2-3.jpg
+│   │   │   ├── 📄 project2-4.jpg
+│   │   │   ├── 📄 project3.jpg            # Project 3 thumbnail
+│   │   │   ├── 📄 project3-1.jpg
+│   │   │   ├── 📄 project3-2.jpg
+│   │   │   ├── 📄 project3-3.jpg
+│   │   │   ├── 📄 project3-4.jpg
+│   │   │   ├── 📄 project4.jpg            # Project 4 thumbnail
+│   │   │   ├── 📄 project4-1.jpg
+│   │   │   ├── 📄 project4-2.jpg
+│   │   │   ├── 📄 project4-3.jpg
+│   │   │   ├── 📄 project4-4.jpg
+│   │   │   ├── 📄 project5.jpg            # Project 5 thumbnail
+│   │   │   ├── 📄 project5-1.jpg
+│   │   │   ├── 📄 project5-2.jpg
+│   │   │   ├── 📄 project5-3.jpg
+│   │   │   ├── 📄 project5-4.jpg
+│   │   │   ├── 📄 project6.jpg            # Project 6 thumbnail
+│   │   │   ├── 📄 project6-1.jpg
+│   │   │   ├── 📄 project6-2.jpg
+│   │   │   ├── 📄 project6-3.jpg
+│   │   │   └── 📄 project6-4.jpg
+│   │   │
+│   │   ├── 📁 thumbs/
+│   │   │   ├── 📄 helmet.jpg              # 3D viewer model thumbnail
+│   │   │   ├── 📄 weapon.jpg              # 3D viewer model thumbnail
+│   │   │   └── 📄 robot.jpg               # 3D viewer model thumbnail
+│   │   │
+│   │   └── 📁 clients/
+│   │       ├── 📄 client1.png             # Client logo (transparent PNG)
+│   │       ├── 📄 client2.png
+│   │       ├── 📄 client3.png
+│   │       ├── 📄 client4.png
+│   │       ├── 📄 client5.png
+│   │       └── 📄 client6.png
+│   │
+│   ├── 📁 models/
+│   │   ├── 📄 readme.txt                  # 3D model integration guide
+│   │   ├── 📄 helmet.glb                  # Optional: 3D model file
+│   │   ├── 📄 weapon.glb                  # Optional: 3D model file
+│   │   └── 📄 robot.glb                   # Optional: 3D model file
+│   │
+│   └── 📄 resume.pdf                      # Your resume/CV PDF
+│
+├── 📄 README.md                           # Main documentation
+├── 📄 QUICK_START.md                      # Quick start guide (5 minutes)
+├── 📄 CUSTOMIZATION_GUIDE.md              # Detailed customization guide
+├── 📄 DEPLOYMENT_GUIDE.md                 # Deployment instructions
+├── 📄 FILE_STRUCTURE.txt                  # This file
+└── 📄 .gitignore                          # Git ignore rules
+
+
+WHAT EACH FILE DOES:
+====================
+
+📄 index.html
+- Contains all the HTML structure
+- All sections: Hero, About, Skills, Portfolio, 3D Viewer, Experience, Contact, Footer
+- Edit this to change content, text, and structure
+
+📄 css/style.css
+- All visual styling
+- Colors, fonts, layouts, animations
+- Responsive design for mobile/tablet/desktop
+- Edit this to change appearance
+
+📄 js/main.js
+- All interactive functionality
+- Navigation, scroll effects, portfolio filters
+- 3D viewer setup, contact form validation
+- Modal system, lazy loading, animations
+- Edit this to change behavior
+
+📁 assets/images/
+- All image files for the website
+- Profile photo, project images, client logos
+- Replace placeholder images with your own
+
+📁 assets/models/
+- Optional 3D model files for the viewer
+- Currently uses basic shapes (cube, sphere, cylinder)
+- Add .glb files to load real 3D models
+
+📄 assets/resume.pdf
+- Your resume/CV for download
+- Linked from the About section
+
+
+CUSTOMIZATION PRIORITY:
+=======================
+
+🔴 MUST CHANGE (Before going live):
+1. index.html - Your name, email, bio, social links
+2. assets/images/profile.jpg - Your photo
+3. assets/images/projects/ - Your project images
+4. js/main.js - Project data (titles, descriptions)
+
+🟡 SHOULD CHANGE (For personalization):
+5. css/style.css - Colors to match your brand
+6. index.html - Skills, experience, achievements
+7. assets/resume.pdf - Your actual resume
+
+🟢 OPTIONAL (Advanced):
+8. Add real 3D models to assets/models/
+9. Integrate contact form with backend
+10. Add custom fonts or animations
+
+
+FILE SIZE RECOMMENDATIONS:
+==========================
+
+Profile Photo:        < 200 KB
+Project Thumbnails:   < 500 KB each
+Project Details:      < 2 MB each
+Model Thumbnails:     < 100 KB each
+Client Logos:         < 50 KB each
+3D Models:            < 10 MB each
+Resume PDF:           < 5 MB
+
+Total Website Size:   < 50 MB (without 3D models)
+
+
+EXTERNAL DEPENDENCIES (CDN):
+============================
+
+The website uses these external libraries (loaded from CDN):
+- Google Fonts (Inter, Orbitron)
+- Font Awesome 6.5.1 (icons)
+- Three.js r128 (3D rendering)
+
+These require internet connection to load.
+For offline use, download and host locally.
+
+
+BROWSER COMPATIBILITY:
+======================
+
+✅ Chrome 90+
+✅ Firefox 88+
+✅ Safari 14+
+✅ Edge 90+
+✅ Mobile browsers (iOS Safari, Chrome Mobile)
+
+⚠️ Internet Explorer: Not supported (use modern browser)
+
+
+NEED HELP?
+==========
+
+1. Quick Start:        QUICK_START.md
+2. Full Documentation: README.md
+3. Customization:      CUSTOMIZATION_GUIDE.md
+4. Deployment:         DEPLOYMENT_GUIDE.md
+
+For technical issues, check browser console (F12) for errors.
+

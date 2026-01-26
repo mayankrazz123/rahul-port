@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Professional 3D Modeling & Texturing Artist Portfolio - High-quality 3D assets for games, films, and product visualization">
+    <meta name="keywords" content="3D modeling, texturing, PBR, game assets, 3D artist, portfolio">
+    <meta name="author" content="Your Name">
+    <meta http-equiv="refesh" content="2" />
+
+    <title>Professional 3D Artist Portfolio | Modeling & Texturing</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="cube">
+                <div class="face front"></div>
+                <div class="face back"></div>
+                <div class="face right"></div>
+                <div class="face left"></div>
+                <div class="face top"></div>
+                <div class="face bottom"></div>
+            </div>
+            <p>Loading Portfolio...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo-text">3D<span class="accent">ARTIST</span></span>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <canvas id="hero-canvas"></canvas>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="greeting">Hello, I'm</span>
+                    <span class="name">Rahul Mali</span>
+                </h1>
+                <h2 class="hero-subtitle">Professional 3D Modeling, Texturing & Motion Graphic Artist</h2>
+                <p class="hero-tagline">Crafting photorealistic 3D assets for AAA games, films, and immersive
+                    experiences</p>
+                <div class="hero-cta">
+                    <a href="#portfolio" class="btn btn-primary">
+                        <i class="fas fa-cube"></i> View Portfolio
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Hire Me
+                    </a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="2">0</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="77">0</span>
+                    <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="25">0</span>
+                    <span class="stat-label">Happy Clients</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get To Know Me</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="assets/images/prof.jpeg" alt="3D Artist Profile" class="lazy-load">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="experience-badge">
+                        <span class="badge-number">2+</span>
+                        <span class="badge-text">Years<br>Experience</span>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Passionate 3D Artist Specializing in High-End Asset Creation</h3>
+                    <p>With over 2+ years of professional experience in the 3D industry, 
+                        I specialize in creating high-quality models and textures for motion graphics, animation projects, and product visualization. My expertise
+                         lies in hard-surface modeling, basic organic sculpting, lighting, and PBR texturing workflows.</p>
+                    <p>I've collaborated with creative studios and freelance clients,
+                         delivering production-ready assets that meet professional quality standards. From concept to final render, 
+                         I ensure every detail and polygon supports clean visuals and efficient workflow.</p>
+                    <p>My work focuses on three core areas: <strong>3D Modeling & Texturing</strong> (optimized and realistic assets),
+                         <strong>Motion Graphics</strong> (dynamic and engaging visuals), and
+                        <strong> Product Visualization </strong> (clean commercial renders).</p>
+
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-gamepad"></i>
+                            <div>
+                                <h4>Game Development</h4>
+                                <p>Optimized assets for Unreal & Unity</p>
+                            </div>
+                        </div>
+
+                        <div class="highlight-item">
+                            <i class="fas fa-box"></i>
+                            <div>
+                                <h4>Product Visualization</h4>
+                                <p>Photorealistic commercial renders</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <a href="assets/Rahul_3D_modelling_resume.pdf" class="btn btn-outline" download>
+                        <i class="fas fa-download"></i> Download Resume
+                    
+                        <a href="./assets/Rahul_3D_modelling_resume.pdf" target="_blank" class="btn btn-outline">
+                            <i class="fas fa-eye"></i> View Resume
+                        </a>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My Expertise</span>
+                <h2 class="section-title">Skills & Tools</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="skills-grid">
+                <!-- 3D Software -->
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>3D Software</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Autodesk Maya</span>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">ZBrush</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">3ds Max</span>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">SketchUp</span>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Texturing -->
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Texturing & Materials</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Substance Painter</span>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Substance Designer</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Photoshop</span>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Marmoset Toolbag</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Game Engines -->
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Game Engines</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Unreal Engine</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">D5 Render</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            
+                <!-- Techniques -->
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Techniques & Workflows</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">PBR Texturing</span>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">UV Mapping</span>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Retopology</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Baking (Normal/AO)</span>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <!-- Motion Graphic-->
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Motion Graphic</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">After Effects</span>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Premiere Pro</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">CapCut</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My Work</span>
+                <h2 class="section-title">Portfolio</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="props">Props</button>
+                <button class="filter-btn" data-filter="environment">Environment</button>
+                <button class="filter-btn" data-filter="game-assets">Game Assets</button>
+                <button class="filter-btn" data-filter="product">Product Visualization</button>
+                <button class="filter-btn" data-filter="archi">Archictecture</button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-item" data-category="props game-assets">
+                    <div class="portfolio-image">
+                        <img src="assets/images/projects/pr1.png" alt="Sci-Fi Weapon" class="lazy-load">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Sci-Fi Energy Rifle</h3>
+                                <p>Game-Ready Weapon Asset</p>
+                                <button class="btn btn-small" onclick="openModal(1)">
+                                    <i class="fas fa-eye"></i> View Details
+                                </button>
+                                <button class="btn btn-small" onclick="viewIn3D('helmet')">
+                                    <i class="fas fa-cube"></i> View 3D Model
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="project-category">Props / Game Assets</span>
+                        <h4>Sci-Fi Energy Rifle</h4>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-item" data-category="environment">
+                    <div class="portfolio-image">
+                        <img src="assets/images/projects/Finnal.png" alt="Medieval Castle" class="lazy-load">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Medieval Castle Ruins</h3>
+                                <p>Environment Asset Pack</p>
+                                <button class="btn btn-small" onclick="openModal(2)">
+                                    <i class="fas fa-eye"></i> View Details
+                                </button>
+                                <button class="btn btn-small" onclick="viewIn3D('helmet')">
+                                    <i class="fas fa-cube"></i> View 3D Model
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="project-category">Environment</span>
+                        <h4>Medieval Castle Ruins</h4>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-item" data-category="product">
+                    <div class="portfolio-image">
+                        <img src="assets/images/projects/Render.jpg.jpeg" alt="Luxury Watch" class="lazy-load">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Luxury Chronograph Watch</h3>
+                                <p>Product Visualization</p>
+                                <button class="btn btn-small" onclick="openModal(3)">
+                                    <i class="fas fa-eye"></i> View Details
+                                </button>
+                                <button class="btn btn-small" onclick="viewIn3D('helmet')">
+                                    <i class="fas fa-cube"></i> View 3D Model
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="project-category">Product Visualization</span>
+                        <h4>Luxury Chronograph Watch</h4>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-item" data-category="props game-assets">
+                    <div class="portfolio-image">
+                        <img src="assets/images/projects/pr4.png" alt="Cyberpunk Vehicle" class="lazy-load">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Cyberpunk Hover Bike</h3>
+                                <p>Game Vehicle Asset</p>
+                                <button class="btn btn-small" onclick="openModal(4)">
+                                    <i class="fas fa-eye"></i> View Details
+                                </button>
+                                <button class="btn btn-small" onclick="viewIn3D('helmet')">
+                                    <i class="fas fa-cube"></i> View 3D Model
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="project-category">Props / Game Assets</span>
+                        <h4>Cyberpunk Hover Bike</h4>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="portfolio-item" data-category="archi ">
+                    <div class="portfolio-image">
+                        <img src="assets/images/projects/ar1.png" alt="Architecture" lass="lazy-load">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Interior</h3>
+                                <p>Room Interiort</p>
+                                <button class="btn btn-small" onclick="openModal(5)">
+                                    <i class="fas fa-eye"></i> View Details
+                                </button>
+                                <button class="btn btn-small" onclick="viewIn3D('helmet')">
+                                    <i class="fas fa-cube"></i> View 3D Model
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="project-category">Props / Game Assets</span>
+                        <h4>Architecture</h4>
+                    </div>
+                </div>
+
+
+               
+               
+
+                <!-- Project 6 -->
+                <div class="portfolio-item" data-category="props">
+                    <div class="portfolio-image">
+                        <img src="assets/images/projects/3.png" alt="Fantasy Sword" class="lazy-load">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Robot/h3>
+                                <p>High-Poly Cinematic Asset</p>
+                                <button class="btn btn-small" onclick="openModal(6)">
+                                    <i class="fas fa-eye"></i> View Details
+                                </button>
+                                <button class="btn btn-small" onclick="viewIn3D('helmet')">
+                                    <i class="fas fa-cube"></i> View 3D Model
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="project-category">Props</span>
+                        <h4>Robot</h4>
+                    </div>
+                </div>
+                <!-- Project 7 -->
+                <div class="portfolio-item" data-category="archi ">
+                    <div class="portfolio-image">
+                        <img src="assets/images/projects/bed1.png" alt="Architecture" lass="lazy-load">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Interior</h3>
+                                <p>Room Interiort</p>
+                                <button class="btn btn-small" onclick="openModal(7)">
+                                    <i class="fas fa-eye"></i> View Details
+                                </button>
+                                <button class="btn btn-small" onclick="viewIn3D('helmet')">
+                                    <i class="fas fa-cube"></i> View 3D Model
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="project-category">Props / Game Assets</span>
+                        <h4>Architecture</h4>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- 3D Model Viewer Section -->
+    <section id="viewer" class="viewer-section section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Interactive Experience</span>
+                <h2 class="section-title">3D Model Viewer</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">Explore my work in real-time 3D. Rotate, zoom, and inspect the models.
+                </p>
+            </div>
+
+            <div class="viewer-container">
+                <div id="threejs-viewer" class="model-viewer">
+                    <div class="viewer-controls">
+                        <button class="control-btn" id="resetCamera" title="Reset Camera">
+                            <i class="fas fa-redo"></i>
+                        </button>
+                        <button class="control-btn" id="toggleWireframe" title="Toggle Wireframe">
+                            <i class="fas fa-project-diagram"></i>
+                        </button>
+                        <button class="control-btn" id="toggleGrid" title="Toggle Grid">
+                            <i class="fas fa-th"></i>
+                        </button>
+                    </div>
+                    <div class="viewer-info">
+                        <p><i class="fas fa-mouse"></i> Left Click + Drag to Rotate</p>
+                        <p><i class="fas fa-mouse"></i> Right Click + Drag to Pan</p>
+                        <p><i class="fas fa-mouse"></i> Scroll to Zoom</p>
+                    </div>
+                </div>
+
+                <div class="model-selector">
+                    <h3>Select Model</h3>
+                    <div class="model-thumbnails">
+                        <div class="model-thumb active" data-model="helmet">
+                            <img src="assets/images/projects/pr4.png" alt="Sci-Fi Helmet">
+                            <span>Cyberpunk Hover Bike</span>
+                        </div>
+                        <div class="model-thumb" data-model="weapon">
+                            <img src="assets/images/thumbs/weapon.jpg" alt="Energy Rifle">
+                            <span>Energy Rifle</span>
+                        </div>
+                        <div class="model-thumb" data-model="robot">
+                            <img src="assets/images/thumbs/robot.jpg" alt="Robot Character">
+                            <span>Robot Character</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wireframe Showcase Section -->
+    <section id="wireframe" class="wireframe-section section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Behind The Scenes</span>
+                <h2 class="section-title">Wireframe Showcase</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">See the technical breakdown and topology of my 3D models.</p>
+            </div>
+
+            <div class="wireframe-grid">
+                <!-- Wireframe Video 1 -->
+                <div class="wireframe-item">
+                    <div class="wireframe-video-wrapper">
+                        <video class="wireframe-video" loop muted playsinline>
+                            <source src="assets/videos/Gun_finnal_video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="video-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                        <button class="fullscreen-btn" title="Fullscreen">
+                            <i class="fas fa-expand"></i>
+                        </button>
+                    </div>
+                    <div class="wireframe-info">
+                        <h4>Sci-Fi Helmet Wireframe</h4>
+                        <p>Clean topology with optimized edge flow</p>
+                    </div>
+                </div>
+
+                <!-- Wireframe Video 2 -->
+                <div class="wireframe-item">
+                    <div class="wireframe-video-wrapper">
+                        <video class="wireframe-video" loop muted playsinline>
+                            <source src="assets/videos/Clay_wire_001.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="video-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                        <button class="fullscreen-btn" title="Fullscreen">
+                            <i class="fas fa-expand"></i>
+                        </button>
+                    </div>
+                    <div class="wireframe-info">
+                        <h4>Weapon Model Breakdown</h4>
+                        <p>Modular design with efficient UV layout</p>
+                    </div>
+                </div>
+
+                <!-- Wireframe Video 3 -->
+                <div class="wireframe-item">
+                    <div class="wireframe-video-wrapper">
+                        <video class="wireframe-video" loop muted playsinline>
+                            <source src="assets/videos/Clay_wireframe_char.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="video-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                        <button class="fullscreen-btn" title="Fullscreen">
+                            <i class="fas fa-expand"></i>
+                        </button>
+                    </div>
+                    <div class="wireframe-info">
+                        <h4>Character Model Topology</h4>
+                        <p>Animation-ready mesh with proper edge loops</p>
+                    </div>
+                </div>
+
+                <!-- Wireframe Video 4 -->
+                <div class="wireframe-item">
+                    <div class="wireframe-video-wrapper">
+                        <video class="wireframe-video" loop muted playsinline>
+                            <source src="assets/videos/ladies.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="video-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                        <button class="fullscreen-btn" title="Fullscreen">
+                            <i class="fas fa-expand"></i>
+                        </button>
+                    </div>
+                    <div class="wireframe-info">
+                        <h4>Environment Asset Wireframe</h4>
+                        <p>LOD optimization for real-time rendering</p>
+                    </div>
+                </div>
+                <!-- Wireframe Video 5 -->
+                <div class="wireframe-item">
+                    <div class="wireframe-video-wrapper">
+                        <video class="wireframe-video" loop muted playsinline>
+                            <source src="assets/videos/3.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="video-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                        <button class="fullscreen-btn" title="Fullscreen">
+                            <i class="fas fa-expand"></i>
+                        </button>
+                    </div>
+                    <div class="wireframe-info">
+                        <h4>Environment Asset Wireframe</h4>
+                        <p>LOD optimization for real-time rendering</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Career Journey</span>
+                <h2 class="section-title">Experience & Clients</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="experience-content">
+                <div class="timeline">
+                    <!-- Experience Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2026 - Present</div>
+                        <div class="timeline-content">
+                            <h3>Senior 3D Artist</h3>
+                            <h4>Freelance / Remote</h4>
+                            <p>Leading 3D asset creation for Build91 and indie developers. Specialized in
+                                hard-surface modeling, PBR texturing, and real-time optimization for Unreal Engine and
+                                Unity projects.</p>
+                            <ul class="experience-highlights">
+                                <li>Created 200+ game-ready assets for multiple shipped titles</li>
+                                <li>Established efficient PBR workflows reducing production time by 40%</li>
+                                <li>Collaborated with international teams across 15+ countries</li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span>Blender</span>
+                                <span>Substance Painter</span>
+                                <span>Unreal Engine</span>
+                                <span>ZBrush</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2018 - 2021</div>
+                        <div class="timeline-content">
+                            <h3>3D Modeling Artist</h3>
+                            <h4>Digital Dreams Studio</h4>
+                            <p>Developed high-quality 3D assets for mobile and PC games. Focused on optimized modeling
+                                techniques and efficient UV layouts for mobile platforms.</p>
+                            <ul class="experience-highlights">
+                                <li>Shipped 8 mobile games with 10M+ combined downloads</li>
+                                <li>Mentored junior artists in PBR texturing workflows</li>
+                                <li>Optimized asset pipeline reducing memory usage by 35%</li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span>Maya</span>
+                                <span>Photoshop</span>
+                                <span>Unity</span>
+                                <span>Substance Designer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience Item 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2016 - 2018</div>
+                        <div class="timeline-content">
+                            <h3>Junior 3D Artist</h3>
+                            <h4>Pixel Forge Interactive</h4>
+                            <p>Started career creating props and environment assets for indie game projects. Learned
+                                industry-standard workflows and production pipelines.</p>
+                            <ul class="experience-highlights">
+                                <li>Contributed to 5 indie game releases</li>
+                                <li>Mastered UV mapping and texture baking techniques</li>
+                                <li>Developed strong foundation in game asset optimization</li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span>Blender</span>
+                                <span>GIMP</span>
+                                <span>Unity</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Let's Work Together</span>
+                <h2 class="section-title">Contact Me</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">Have a project in mind? Let's create something amazing together.</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>I'm currently available for freelance work and exciting collaborations. Whether you need game
+                        assets, cinematic models, or product visualization, I'd love to hear about your project.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="rahulmali1551@gmail.com">rahulmali1551@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Nashik,Maharastra (Remote Available)</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <h4>Response Time</h4>
+                                <p>Within 24 hours</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://rahulmali4.artstation.com" target="_blank" class="social-link"
+                            title="ArtStation">
+                            <i class="fab fa-artstation"></i>
+                        </a>
+                        
+                        <a href="https://www.linkedin.com/in/rahul-mali-a94594302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-link"
+                            title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                       
+                        <a href="https://www.instagram.com/360_spacework?igsh=MTh6cmZ4YTNieDZiOA==" target="_blank" class="social-link"
+                            title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name *</label>
+                        <input type="text" id="name" name="name" required placeholder="Your name">
+                        <span class="error-message"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email *</label>
+                        <input type="email" id="email" name="email" required placeholder="your_email@example.com">
+                        <span class="error-message"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Project Inquiry">
+                        <span class="error-message"></span>
+                    </div>
+
+                   
+
+                    <div class="form-group full-width">
+                        <label for="message">Your Message *</label>
+                        <textarea id="message" name="message" rows="6" required
+                            placeholder="Tell me about your project..."></textarea>
+                        <span class="error-message"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+
+                    <div class="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>3D<span class="accent">ARTIST</span></h3>
+                    <p>Professional 3D Modeling & Texturing Artist specializing in game assets, cinematic models, and
+                        product visualization.</p>
+                    <div class="footer-social">
+                        <a href="https://rahulmali4.artstation.com" target="_blank" title="ArtStation">
+                            <i class="fab fa-artstation"></i>
+                        </a>
+                        
+                        <a href="https://www.linkedin.com/in/rahul-mali-a94594302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                       
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#portfolio">3D Modeling</a></li>
+                        <li><a href="#portfolio">PBR Texturing</a></li>
+                        <li><a href="#portfolio">Game Assets</a></li>
+                        <li><a href="#portfolio">Environment Design</a></li>
+                        <li><a href="#portfolio">Product Visualization</a></li>
+                        <li><a href="#portfolio">Character Modeling</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="rahulmali1551@gmail.com">rahulmali1551@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Raipur Chhatisgarh</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>Available for Remote Work</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rahul Mali - 3D Artist. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <div class="modal-body" id="modalBody">
+                <!-- Content will be dynamically loaded -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Three.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/OBJLoader.js"></script>
+
+    <!-- Main JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
