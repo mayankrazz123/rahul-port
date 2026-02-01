@@ -269,8 +269,8 @@ const projectData = {
         title: 'Sci-Fi Energy Rifle',
         category: 'Props / Game Assets',
         description: 'A high-quality, game-ready sci-fi energy weapon designed for AAA first-person shooter games. Features modular design with interchangeable parts and full PBR texturing.',
-        software: 'Blender, Substance Painter, Marmoset Toolbag',
-        polycount: '15,000 tris',
+        software: 'Maya, Substance Painter, Marmoset Toolbag, Zbrush,Photoshop',
+        polycount: '10K tries',
         textures: '4K (Albedo, Normal, Metallic, Roughness, AO)',
         images: [
             'assets/images/projects/pr1.png',
@@ -284,8 +284,8 @@ const projectData = {
         title: 'Medieval Castle Ruins',
         category: 'Environment',
         description: 'Modular medieval castle environment kit with 50+ unique assets. Optimized for real-time rendering in Unreal Engine with dynamic lighting support.',
-        software: 'Maya, ZBrush, Substance Designer, Unreal Engine',
-        polycount: '200K - 500K tris (full scene)',
+        software: 'Maya, ZBrush, Substance Painter, Marmoset Toolbag,Photoshop ',
+        polycount: '20K Polygons (full scene)',
         textures: '4K tileable textures, 2K unique assets',
         images: [
             'assets/images/projects/Finnal.png'
@@ -296,11 +296,11 @@ const projectData = {
     },
 
     3: {
-        title: 'Luxury Chronograph Watch',
+        title: 'Sofa Model',
         category: 'Product Visualization',
-        description: 'Photorealistic product visualization for luxury watch brand. Created for marketing materials and e-commerce platform with multiple material variations.',
-        software: 'Blender, Substance Painter, Photoshop',
-        polycount: '250K tris (high-poly render)',
+        description: 'Photorealistic product visualization for Sofa Model. Created for marketing materials and e-commerce platform with multiple material variations.',
+        software: 'Maya, ZBrush, Substance Painter, Marmoset Toolbag,Photoshop',
+        polycount: '18K Polygons (high-poly render)',
         textures: '8K (Albedo, Normal, Metallic, Roughness)',
         images: [
             'assets/images/projects/Render2.jpg.jpeg',
@@ -314,8 +314,8 @@ const projectData = {
         title: 'Cyberpunk Hover Bike',
         category: 'Props / Game Assets',
         description: 'Futuristic hover bike vehicle for cyberpunk-themed game. Features detailed interior, animated parts, and customizable color schemes.',
-        software: 'Blender, Substance Painter, Unity',
-        polycount: '45,000 tris',
+        software: 'Maya, ZBrush, Substance Painter, Marmoset Toolbag,Photoshop',
+        polycount: '14,000 polygons',
         textures: '4K PBR textures with emissive maps',
         images: [
             'assets/images/projects/pr21.png',
@@ -329,8 +329,8 @@ const projectData = {
         title: 'Interior',
         category: 'Archictecture',
         description: 'Abandoned industrial factory environment with extensive weathering and decay details. Includes modular pieces for level design flexibility.',
-        software: 'Maya, ZBrush, Substance Painter, Unreal Engine',
-        polycount: '300K - 600K tris (full scene)',
+        software: 'SketchUp, D5Render,PhotoShop,AutoCad,Photoshop',
+        polycount: '',
         textures: '4K tileable + 2K unique assets',
         images: [
             'assets/images/projects/ar1.png',
@@ -342,11 +342,11 @@ const projectData = {
         ]
     },
     6: {
-        title: 'Legendary Flame Sword',
+        title: 'Props',
         category: 'Props',
         description: 'High-poly cinematic fantasy sword with intricate details and magical flame effects. Created for game cinematics and promotional materials.',
-        software: 'ZBrush, Blender, Substance Painter',
-        polycount: '500K tris (cinematic quality)',
+        software: 'Maya, ZBrush, Substance Painter, Marmoset Toolbag,Photoshop',
+        polycount: '10k tires (cinematic quality)',
         textures: '8K (Albedo, Normal, Metallic, Roughness, Emissive)',
         images: [
             'assets/images/projects/3.png',
@@ -360,8 +360,8 @@ const projectData = {
         title: 'Interior',
         category: 'Archictecture',
         description: 'Abandoned industrial factory environment with extensive weathering and decay details. Includes modular pieces for level design flexibility.',
-        software: 'Maya, ZBrush, Substance Painter, Unreal Engine',
-        polycount: '300K - 600K tris (full scene)',
+        software: 'SketchUp, D5Render,PhotoShop,AutoCad',
+        polycount: '',
         textures: '4K tileable + 2K unique assets',
         images: [
             'assets/images/projects/bed4.png',
@@ -376,7 +376,7 @@ const projectData = {
         title: 'Character',
         category: 'char',
         description: 'Abandoned industrial factory environment with extensive weathering and decay details. Includes modular pieces for level design flexibility.',
-        software: 'Maya, ZBrush, Substance Painter, Unreal Engine',
+        software: 'Maya, ZBrush, Substance Painter, Marmoset Toolbag,Photoshop',
         polycount: '300K - 600K tris (full scene)',
         textures: '4K tileable + 2K unique assets',
         images: [
@@ -393,7 +393,7 @@ const projectData = {
         title: 'Character',
         category: 'char',
         description: 'Abandoned industrial factory environment with extensive weathering and decay details. Includes modular pieces for level design flexibility.',
-        software: 'Maya, ZBrush, Substance Painter, Unreal Engine',
+        software: 'Maya, ZBrush, Substance Painter, Marmoset Toolbag,Photoshop',
         polycount: '300K - 600K tris (full scene)',
         textures: '4K tileable + 2K unique assets',
         images: [
@@ -404,6 +404,21 @@ const projectData = {
             'assets/images/projects/Character5.jpeg',
             
         ],
+    },
+        10: {
+        title: 'Character',
+        category: 'char',
+        description: 'Abandoned industrial factory environment with extensive weathering and decay details. Includes modular pieces for level design flexibility.',
+        software: 'Maya, ZBrush, Substance Painter, Marmoset Toolbag,Photoshop',
+        polycount: '300K - 600K tris (full scene)',
+        textures: '4K tileable + 2K unique assets',
+        images: [
+            'assets/images/projects/Character.png',
+            
+            
+            
+        ],
+        video: 'assets/videos/Finel.mp4'
     },
     
 };
