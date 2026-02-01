@@ -372,6 +372,40 @@ const projectData = {
             
         ]
     },
+    8: {
+        title: 'Character',
+        category: 'char',
+        description: 'Abandoned industrial factory environment with extensive weathering and decay details. Includes modular pieces for level design flexibility.',
+        software: 'Maya, ZBrush, Substance Painter, Unreal Engine',
+        polycount: '300K - 600K tris (full scene)',
+        textures: '4K tileable + 2K unique assets',
+        images: [
+            'assets/images/projects/mm.png',
+            'assets/images/projects/mn.png',
+            'assets/images/projects/mnbnnn.png',
+            'assets/images/projects/nn.png',
+            
+            
+        ],
+        video: 'assets/videos/kk.mp4'
+    },
+    9: {
+        title: 'Character',
+        category: 'char',
+        description: 'Abandoned industrial factory environment with extensive weathering and decay details. Includes modular pieces for level design flexibility.',
+        software: 'Maya, ZBrush, Substance Painter, Unreal Engine',
+        polycount: '300K - 600K tris (full scene)',
+        textures: '4K tileable + 2K unique assets',
+        images: [
+            'assets/images/projects/character1.jpeg',
+            'assets/images/projects/character2.jpeg',
+            'assets/images/projects/character3.jpeg',
+            'assets/images/projects/character4.jpeg',
+            'assets/images/projects/Character5.jpeg',
+            
+        ],
+    },
+    
 };
 
 function openModal(projectId) {
